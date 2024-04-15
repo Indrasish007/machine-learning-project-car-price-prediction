@@ -1,0 +1,96 @@
+*{
+    margin :0;
+    padding : 0;
+    box-sizing: 0;
+}
+.bg-dark{
+    background-color: 75767B;
+}
+.mt{
+    margin-top: 50px;
+}
+.card {
+    width: 700px; 
+    margin: 10px auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+    padding: 15px; 
+  }
+  
+  .card-body {
+    font-size: 20px; 
+    color: #333; 
+    text-align: center;
+    font-family: cursive;
+  }
+body
+{
+    background-color: antiquewhite;
+}
+label
+{
+    display: block;
+    font-weight: bold;
+    font-family: Candara;
+    text-align: center;
+    font-size: 18px;
+}
+button
+{
+    display:block;
+    margin: 0 auto;
+    
+}
+button {
+    padding: 10px;
+    border: 5px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+    margin:10px auto;
+    width: 600px;
+   }
+   
+   button::before {
+    content: '';
+    width:0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: inline-block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #111;
+   }
+   input
+   {
+    width: 665px;
+    margin: 5px;
+    padding:5px;
+   }
+   textarea
+   {
+    width: 665px;
+   }
+   h1
+   {
+    font-size: 20px;
+   }
